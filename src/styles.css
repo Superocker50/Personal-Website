@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300&family=Lora&display=swap');
+
+section {
+    position: relative; 
+    height: 100vh; 
+    width: 100vw; 
+}
+
+#container {
+    margin: auto;
+    position: absolute; 
+    left: 50%; 
+    top: 50%;  
+    transform: translate(-50%, -50%); 
+}
+
+html {
+    scroll-behavior: smooth;
+}

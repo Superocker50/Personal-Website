@@ -1,0 +1,30 @@
+.company {
+    font-family: Lora; 
+}
+
+.title, li {
+    font-family: Barlow;
+}
+
+p {
+    font-family: Lora;
+}
+
+.job-container {
+    column-gap: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#container {
+    width: 75vw; 
+}
+
+.company-container {
+    width: 40%;
+}
+
+.title-container {
+    width: 50%; 
+}

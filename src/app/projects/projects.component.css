@@ -1,0 +1,60 @@
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header1 header1 header1 header1 header1 header1'
+    'item1 item1 item1 item2 item2 item2'
+    'item1 item1 item1 item2 item2 item2'
+    'item1 item1 item1 item2 item2 item2'
+    'header2 header2 header2 header2 header2 header2'
+    'item3 item3 item3 item4 item4 item4'
+    'item3 item3 item3 item4 item4 item4'
+    'item3 item3 item3 item4 item4 item4';
+    gap: 15px; 
+    width: 90%; 
+}
+
+.technologies {
+    font-family: 'Barlow Condensed';
+}
+
+.grid-container > div {
+    display: flex;
+    font-family: Lora;
+    font-size: 0.85em; 
+    width: 100%; 
+}
+
+.header1 {
+    font-family: Barlow;
+    grid-area: header1; 
+    text-align: center;
+}
+
+.header2 {
+    font-family: Barlow;
+    grid-area: header2;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: item1;   
+}
+
+.item2 {
+    grid-area: item2; 
+}
+
+.item3 {
+    grid-area: item3; 
+}
+
+.item4 {
+    grid-area: item4; 
+}
+
+img {
+    height: 200px; 
+    object-fit: cover;
+    width: 200px; 
+    scale: 0.8;
+}

@@ -1,0 +1,11 @@
+p {
+    font-family: Barlow;
+    font-size: 75px;
+    margin: 0px;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: underline 3px;
+}
+
